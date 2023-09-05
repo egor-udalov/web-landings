@@ -1,0 +1,28 @@
+.btn-sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 0 40px 40px 0;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.btn-sign-up img {
+    display: block;
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-sign-up span {
+    display: block;
+    color: var(--light-color);
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}

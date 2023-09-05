@@ -1,0 +1,10 @@
+.logo {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+.logo__icon {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}

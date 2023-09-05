@@ -1,0 +1,111 @@
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero__bg {
+    max-width: 690px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.hero__bg__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100% 100% 0 0;
+}
+
+.hero__content {
+    display: flex;
+    position: absolute;
+    inset: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero__title {
+    align-self: flex-start;
+    max-width: 330px;
+    margin-top: 95px;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.hero__name-fighter {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 100%;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero__name-fighter span {
+    flex-grow: 1;
+}
+
+.hero__descr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero__descr__text {
+    max-width: 410px;
+    line-height: 150%;
+}
+
+.hero__btn {
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    align-items: flex-end;
+    width: 277px;
+    margin: 40px 70px 40px auto;
+}
+
+@media (max-width: 768px) {
+
+    .hero__title {
+        font-size: 16px;
+    }
+
+    .hero__name-fighter {
+        font-size: 64px;
+    }
+
+    .hero__descr__text {
+        font-size: 16px;
+    }
+
+    .hero__btn {
+        margin: 40px 0 40px 0;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hero__name-fighter {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .hero__title {
+        font-size: 14px;
+    }
+
+    .hero__name-fighter {
+        font-size: 34px;
+    }
+
+    .hero__descr__text {
+        font-size: 14px;
+    }
+}
