@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Lumberjack;
+    font-weight: normal;
+    src: local("Lumberjack Regular"),
+        local("Lumberjack-Regular"),
+        url("../fonts/Lumberjack.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: normal;
+    src: local("Roboto Regular"),
+        local("Roboto-Regular"),
+        url("../fonts/RobotoRegular.woff2") format("woff2");
+}

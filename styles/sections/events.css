@@ -1,0 +1,30 @@
+.events{
+    margin-top: 140px;
+}
+
+.events__items {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    justify-items: stretch;
+
+    margin-top: 60px;
+
+}
+
+@media (width <=768px) {
+    .events{
+        margin-top: calc(40px + (140 - 40) * ((100vw - 320px) / (768 - 320)));
+    }
+
+    .events__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width <=425px) {
+    .events__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

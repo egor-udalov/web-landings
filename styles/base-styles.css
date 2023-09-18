@@ -1,0 +1,39 @@
+body {
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #fff;
+
+    background-color: black;
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+.page-container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.content-container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D6258F;
+    border-radius: 10px;
+}

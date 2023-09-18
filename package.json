@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "create-stylelint": "^0.3.0"
+  },
+  "devDependencies": {
+    "stylelint": "^15.10.3",
+    "stylelint-config-clean-order": "^5.2.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3"
+  }
+}

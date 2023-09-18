@@ -1,0 +1,131 @@
+.hero {
+    position: relative;
+}
+
+.hero__bg {
+    transform: scale(-1, 1);
+
+    width: 100%;
+    max-height: 980px;
+
+    object-fit: cover;
+    filter: blur(3px);
+}
+
+.hero__content {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.hero__title {
+    font-family: Lumberjack;
+    font-size: 96px;
+    font-weight: normal;
+    line-height: 130%;
+    color: #909;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #f09,
+        0 0 82px #f09,
+        0 0 92px #f09,
+        0 0 102px #909,
+        0 0 151px #909;
+    text-transform: uppercase;
+
+    background-clip: text;
+    filter: blur(0.2px);
+    mix-blend-mode: hard-light;
+
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+
+    -webkit-text-stroke: 3px #fff;
+    text-stroke: 3px #fff;
+}
+
+@keyframes pulsate {
+    100% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px #f09,
+            0 0 80px #f09,
+            0 0 90px #f09,
+            0 0 100px #909,
+            0 0 150px #909;
+    }
+
+    0% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 10px #fff,
+            0 0 18px #fff,
+            0 0 38px #f09,
+            0 0 73px #f09,
+            0 0 80px #f09,
+            0 0 94px #909,
+            0 0 140px #909;
+    }
+}
+
+.hero__subtitle {
+    margin-top: 50px;
+    font-family: Lumberjack;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.hero__subtitle span {
+    color: #D6258F;
+}
+
+@media (width <=1920px) {
+    .hero__bg {
+        height: calc(280px + (980 - 280) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+@media (width <=1440px) {
+    .hero__title {
+        font-size: calc(36px + (96 - 36) * ((100vw - 320px) / (1440 - 320)));
+
+        -webkit-text-stroke: calc(1px + (3 - 1) * ((100vw - 320px) / (1440 - 320))) #fff;
+    }
+
+    .hero__subtitle {
+        margin-top: calc(20px + (50 - 20) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(24px + (48 - 24) * ((100vw - 320px) / (1440 - 320)));
+    }
+}
+
+@media (width <=425px) {
+    .hero__content {
+        width: 100%;
+    }
+
+    .hero__subtitle {
+        width: 100%;
+    }
+}
+
+@media (width <=320px) {
+    .hero__bg {
+        min-height: 280px;
+    }
+
+    .hero__title {
+        font-size: 36px;
+
+        -webkit-text-stroke: 1px #fff;
+    }
+
+    .hero__subtitle {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+}
