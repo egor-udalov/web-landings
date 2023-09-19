@@ -103,6 +103,12 @@
     }
 }
 
+@media (width <=768px) {
+    .hero__title {
+        animation: none;
+    }
+}
+
 @media (width <=425px) {
     .hero__content {
         width: 100%;

@@ -112,6 +112,7 @@
         order: 1;
         width: calc(282px + (520 - 282) * ((100vw - 320px) / (768 - 320)));
         height: calc(282px + (426 - 282) * ((100vw - 320px) / (768 - 320)));
+        animation: none;
     }
 
     .menu-item__title {

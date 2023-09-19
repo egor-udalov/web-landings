@@ -63,3 +63,9 @@
         -webkit-text-stroke: calc(1px + (2 - 1) * ((100vw - 320px) / (1024 - 320))) #fff;
     }
 }
+
+@media (width <=768px) {
+    .section-title {
+        animation: none;
+    }
+}
