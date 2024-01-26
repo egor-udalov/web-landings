@@ -9,4 +9,4 @@
 <br>
 <br>
 
-![california-bar egor-udalov ru_](https://github.com/egor-udalov/web-landings/assets/98544806/03f4cc94-2d8f-4cec-8910-bbc2cc1580cd)
+![teia-art-photo-studio](https://github.com/egor-udalov/web-landings/assets/98544806/c19d20cf-b9bc-4471-bf58-bb0439686657)
