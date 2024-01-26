@@ -1,0 +1,104 @@
+.special-offer {
+    display: grid;
+    grid-template-columns: 276px 241px 334px 234px 389px;
+    grid-template-rows: auto auto auto 73px auto;
+    grid-template-areas:
+        "image-1 title title image-2 image-2"
+        ". descr descr accent-text accent-text"
+        ". . . button button"
+        ". . . . ."
+        "image-3 image-4 text text image-5";
+    column-gap: 24px;
+
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.special-offer__image--image-1 {
+    grid-area: image-1;
+    width: 237px;
+    height: 158px;
+}
+
+.special-offer__title {
+    grid-area: title;
+    justify-self: end;
+}
+
+.special-offer__image--image-2 {
+    grid-area: image-2;
+    width: 366px;
+    height: 244px;
+}
+
+.special-offer__descr {
+    grid-area: descr;
+
+    margin-top: 40px;
+
+    font-size: 2.25rem;
+    line-height: 130%;
+    color: var(--color-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.72px;
+
+}
+
+.special-offer__descr span {
+    font-weight: 600;
+}
+
+.special-offer__accent-text {
+    grid-area: accent-text;
+
+    margin-top: 28px;
+
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--color-dark);
+    text-transform: uppercase;
+    letter-spacing: 1.92px;
+}
+
+.special-offer__button {
+    grid-area: button;
+    margin-top: 29px;
+}
+
+.special-offer__image--image-3 {
+    grid-area: image-3;
+    align-self: end;
+    justify-self: end;
+
+    width: 172px;
+    height: 230px;
+}
+
+.special-offer__image--image-4 {
+    grid-area: image-4;
+    align-self: end;
+    width: 241px;
+    height: 362px;
+}
+
+.special-offer__text {
+    grid-area: text;
+    align-self: end;
+    justify-self: end;
+
+    font-size: 1.5rem;
+    line-height: 130%;
+    color: var(--color-dark);
+    text-align: end;
+    letter-spacing: 0.48px;
+}
+
+.special-offer__image--image-5 {
+    grid-area: image-5;
+    align-self: end;
+    justify-self: end;
+
+    width: 389px;
+    height: 259px;
+}

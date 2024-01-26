@@ -1,0 +1,12 @@
+:root {
+    /* colors */
+    --color-light: #fff;
+    --color-dark: #111;
+
+    --color-neutral-light: #EFF0F4;
+    --color-neutral: #888;
+
+    /* transition */
+    --transition-hover: .3s;
+    --animation-opacity: .7s;
+}

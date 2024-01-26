@@ -1,0 +1,133 @@
+.halls {
+    padding-top: 150px;
+}
+
+.halls__title-wrapper {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    justify-content: start;
+
+    padding-bottom: 27px;
+
+    border-bottom: 1px solid var(--color-dark);
+}
+
+.halls__title {
+    justify-self: start;
+}
+
+.halls__descr {
+    justify-self: end;
+
+    max-width: 560px;
+    margin-top: 90px;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 130%;
+    color: var(--color-dark);
+    letter-spacing: 0.48px;
+}
+
+.halls .photo-zone {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.photo-zone__info {
+    position: relative;
+    margin-top: 28px;
+}
+
+.photo-zone__wrapper-description {
+    display: grid;
+    row-gap: 12px;
+}
+
+.halls .photo-zone__descr,
+.halls .photo-zone__price {
+    max-width: 629px;
+
+    font-size: 1rem;
+    line-height: 130%;
+    color: var(--color-dark);
+    letter-spacing: 0.32px;
+}
+
+.halls .photo-zone__descr__bold {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 130%;
+    color: var(--color-dark);
+    letter-spacing: 0.32px;
+}
+
+.halls .photo-zone ul {
+    display: grid;
+    row-gap: 8px;
+    padding-left: 18px;
+    list-style-type: disc;
+}
+
+.halls .photo-zone__wrapper-prices {
+    margin-top: 8px;
+}
+
+.halls .photo-zone__price-title {
+    margin-top: 16px;
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 130%;
+    color: var(--color-dark);
+    letter-spacing: 0.4px;
+}
+
+.halls .photo-zone__wrapper-prices .photo-zone__descr {
+    margin-top: 8px;
+}
+
+.halls .photo-zone__button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.halls .photo-zone__gallery {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(6, 123px);
+    row-gap: 24px;
+    column-gap: 26px;
+
+    max-width: 866px;
+    margin-top: 55px;
+}
+
+.halls .photo-zone__main-image {
+    grid-column: span 6;
+    grid-row: 1;
+    width: 100%;
+    height: 502px
+}
+
+.halls .photo-zone__image {
+    grid-row: 2;
+    width: 100%;
+    height: 123px;
+}
+
+.halls .photo-zone__divider {
+    display: block;
+
+    width: 100%;
+    height: 1px;
+    margin-top: 55px;
+
+    background-color: var(--color-dark);
+}

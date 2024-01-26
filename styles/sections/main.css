@@ -1,0 +1,32 @@
+.main__title {
+    display: grid;
+
+    margin-top: 83px;
+
+    font-size: 5.75rem;
+    line-height: 130%;
+    text-transform: uppercase;
+    letter-spacing: 1.84px;
+}
+
+.main__title span:nth-child(1) {
+    text-align: start;
+}
+
+.main__title span:nth-child(2) {
+    text-align: center;
+}
+
+.main__title span:nth-child(3) {
+    text-align: end;
+}
+
+.main__subtitle {
+    margin-top: 41px;
+    padding-left: 41px;
+
+    font-size: 2.25rem;
+    line-height: 130%;
+    text-transform: uppercase;
+    letter-spacing: 0.72px;
+}

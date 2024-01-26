@@ -1,0 +1,131 @@
+.header {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.header__bg-video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+}
+
+.header__menu {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 80px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__image-logo {
+    width: 85px;
+    height: 57px;
+}
+
+.header__name-logo {
+    width: 160px;
+    height: 50px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 46px;
+}
+
+.header__nav a {
+    font-size: 1.75rem;
+    line-height: 130%;
+    color: var(--color-light);
+    text-transform: uppercase;
+}
+
+.header__phone-number {
+    font-size: 2rem;
+    line-height: 130%;
+    color: var(--color-light);
+}
+
+.header__nav a::after,
+.header__phone-number::after {
+    content: '';
+
+    display: block;
+
+    width: 0;
+    height: 2px;
+
+    background: var(--color-light);
+}
+
+.header__descr {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 40px;
+}
+
+.header__promo-code {
+    justify-self: end;
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--color-light);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.header__title {
+    grid-row: 2;
+    justify-self: end;
+
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--color-light);
+    text-transform: uppercase;
+    letter-spacing: 1.92px;
+}
+
+.header__button {
+    grid-row: 2;
+    align-self: end;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+@media (hover: hover) {
+    .header__nav a:hover::after,
+    .header__phone-number:hover::after {
+        width: 100%;
+        transition: width var(--transition-hover);
+    }
+}
+
+@media (hover: none) {
+    .header__nav a:active::after,
+    .header__phone-number:active::after {
+        width: 100%;
+    }
+}

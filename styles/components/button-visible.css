@@ -1,0 +1,37 @@
+.button-visible {
+    cursor: pointer;
+
+    position: relative;
+
+    box-sizing: content-box;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+
+    background-color: transparent;
+    border: none;
+}
+
+.button-visible::before,
+.button-visible::after {
+    content: '';
+
+    position: absolute;
+
+    width: 48px;
+    height: 2px;
+
+    background-color: var(--color-neutral);
+}
+
+.button-visible::before {
+    transform: translateX(-24px);
+}
+
+.button-visible::after {
+    transform: rotate(90deg) translateY(24px) translateX(-1px);
+}
+
+.button-visible.visible-active.button-visible::after {
+    height: 0;
+}

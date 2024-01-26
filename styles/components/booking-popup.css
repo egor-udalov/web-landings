@@ -1,0 +1,80 @@
+.booking-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgb(0 0 0 / 80%);
+
+    transition: all 0.8s ease 0;
+}
+
+.booking-popup.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.booking-popup.open .booking-popup__content {
+    transform: perspective(600px) translate(0, 0) rotateX(0deg);
+    opacity: 1;
+}
+
+.booking-popup__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100%;
+    padding: 30px 10px;
+}
+
+.booking-popup__content {
+    position: relative;
+    transform: perspective(600px) translate(0, -100%) rotateX(45deg);
+
+    max-width: 800px;
+    padding: 30px;
+
+    color: var(--color-dark);
+
+    opacity: 0;
+    background-color: #fff;
+    border-radius: 10px;
+
+    transition: all 0.8s ease 0;
+}
+
+.booking-popup__close {
+    cursor: pointer;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    padding: 0;
+    padding: 10px;
+
+    font: inherit;
+    color: inherit;
+
+    background-color: transparent;
+    border: none;
+}
+
+.booking-popup__title {
+    margin-bottom: 1em;
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.4px;
+}
+
+.booking-popup__text {
+    line-height: 130%;
+    letter-spacing: 0.32px;
+}

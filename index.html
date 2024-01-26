@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>ТЕЙА Фотостудия</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/vars.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/base-styles.css">
+
+    <link rel="stylesheet" href="styles/components/button-booking.css">
+    <link rel="stylesheet" href="styles/components/button-visible.css">
+    <link rel="stylesheet" href="styles/components/section-title.css">
+    <link rel="stylesheet" href="styles/components/section-subtitle.css">
+    <link rel="stylesheet" href="styles/components/booking-popup.css">
+
+    <link rel="stylesheet" href="styles/sections/header.css">
+    <link rel="stylesheet" href="styles/sections/main.css">
+    <link rel="stylesheet" href="styles/sections/halls.css">
+    <link rel="stylesheet" href="styles/sections/more-halls.css">
+    <link rel="stylesheet" href="styles/sections/special-offer.css">
+    <link rel="stylesheet" href="styles/sections/promo-video.css">
+    <link rel="stylesheet" href="styles/sections/hardware.css">
+    <link rel="stylesheet" href="styles/sections/services.css">
+    <link rel="stylesheet" href="styles/sections/stocks.css">
+    <link rel="stylesheet" href="styles/sections/gallery.css">
+    <link rel="stylesheet" href="styles/sections/team.css">
+    <link rel="stylesheet" href="styles/sections/frequent-questions.css">
+    <link rel="stylesheet" href="styles/sections/footer.css">
+
+</head>
+
+<body>
+
+    <div class="page-container">
+
+        <header class="header">
+            <video preload="auto" autoplay loop muted class="header__bg-video">
+                <source src="images/video/header_bg.mp4" type="video/mp4">
+            </video>
+            <div class="content-container">
+                <div class="header__content">
+                    <div class="header__menu">
+                        <div class="header__logo">
+                            <img src="images/logo.svg" alt="" class="header__image-logo">
+                            <img src="images/name_logo.svg" alt="" class="header__name-logo">
+                        </div>
+                        <nav class="header__nav">
+                            <a href="#halls">залы</a>
+                            <a href="#hardware">оборудование</a>
+                            <a href="#services">услуги</a>
+                            <a href="#team">о студии</a>
+                            <a href="#footer">контакты</a>
+                        </nav>
+                        <a href="tel:79873945831" class="header__phone-number">+7 (987) 394-58-31</a>
+                    </div>
+                    <div class="header__descr">
+                        <p class="header__promo-code">-50% на первое посещение по промокоду «водолей»</p>
+                        <h1 class="header__title">арт фотостудия</h1>
+                        <button class="button-booking button-booking--light header__button">
+                            <p>забронировать</p>
+                            <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="arrow"><path id="Rectangle" d="M3.25354 1H18.3735V16.12" stroke="white" /><path id="Vector" d="M1 18.7539L18.2535 1" stroke="white" /></g></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <div class="content-container">
+                
+                <section id="halls" class="halls">
+                    <div class="halls__title-wrapper">
+                        <h3 class="section-title halls__title">залы<span>(5)</span></h3>
+                        <p class="halls__descr">5&nbsp;залов в&nbsp;разных стилях, оснащенные новым профессиональным
+                            оборудованием</p>
+                    </div>
+                    <div class="photo-zone">
+                        <div class="photo-zone__info">
+                            <h4 class="section-subtitle">контент</h4>
+                            <div class="photo-zone__wrapper-description">
+                                <p class="photo-zone__descr">
+                                    Светлый зал с&nbsp;хорошим естественным освещением, идеален для контентной,
+                                    каталожной,
+                                    тематической, предметной съемок, съемки личного бренда и&nbsp;бизнес-съемок.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class="photo-zone__descr">Широкий подоконник</p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">Реквизита для предметной съемки</p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">
+                                            Переносная ванна в&nbsp;стиле Бали, с&nbsp;возможностью наполнения водой
+                                            (можно
+                                            перенести в&nbsp;другой зал)
+                                        </p>
+                                    </li>
+                                </ul>
+                                <p class="photo-zone__descr">
+                                    Диваны, кресла, стулья, монстеры, ширма, большое зеркало и&nbsp;тд.
+                                </p>
+                            </div>
+                            <p class="photo-zone__price-title">Стоимость</p>
+                            <div class="photo-zone__wrapper-prices">
+                                <p class="photo-zone__price">1 час — 1500₽</p>
+                                <p class="photo-zone__price">2 часа — 2500₽</p>
+                                <p class="photo-zone__price">3 часа — 3000₽</p>
+                                <p class="photo-zone__price">От 3-х часов аренды 1000₽/час</p>
+                                <p class="photo-zone__descr">
+                                    Одно наполнение ванны водой&nbsp;&mdash; 1000₽, сообщать необходимо заранее
+                                </p>
+                            </div>
+                            <button class="button-booking button-booking--dark photo-zone__button">
+                                <p>забронировать</p>
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="arrow"><path id="Rectangle" d="M3.25354 1H18.3735V16.12" stroke="#111" /><path id="Vector" d="M1 18.7539L18.2535 1" stroke="#111" /></g></svg>
+                            </button>
+                        </div>
+                        <div class="photo-zone__gallery">
+                            <img src="images/photo_zone_content_main.png" alt="Зал 'Контент'" class="photo-zone__main-image">
+                            <img src="images/photo_zone_content_1.png" alt="Зал 'Контент'" class="photo-zone__image">
+                            <img src="images/photo_zone_content_2.png" alt="Зал 'Контент'" class="photo-zone__image">
+                            <img src="images/photo_zone_content_3.png" alt="Зал 'Контент'" class="photo-zone__image">
+                            <img src="images/photo_zone_content_4.png" alt="Зал 'Контент'" class="photo-zone__image">
+                            <img src="images/photo_zone_content_5.png" alt="Зал 'Контент'" class="photo-zone__image">
+                            <img src="images/photo_zone_content_6.png" alt="Зал 'Контент'" class="photo-zone__image">
+                        </div>
+                    </div>
+                    <span class="photo-zone__divider"></span>
+                    <div class="photo-zone">
+                        <div class="photo-zone__gallery">
+                            <img src="images/photo_zone_rain_main.png" alt="Зал 'Дождь'" class="photo-zone__main-image">
+                            <img src="images/photo_zone_rain_1.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_rain_2.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_rain_3.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_rain_4.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_rain_5.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_rain_6.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                        </div>
+                        <div class="photo-zone__info">
+                            <h4 class="section-subtitle">дождь</h4>
+                            <div class="photo-zone__wrapper-description">
+                                <p class="photo-zone__descr">
+                                    Это большая площадка для АКВАСЪЕМКИ.Зал оборудован системами, с&nbsp;помощью которых
+                                    можно создавать крутые кадры с&nbsp;водой.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class="photo-zone__descr">Мелкий дождь с туманом</p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">Крупный дождь</p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">Тропический душ за стеклом</p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">Шланг с лейкой разных режимов</p>
+                                    </li>
+                                </ul>
+                                <p class="photo-zone__descr">
+                                    <span class="photo-zone__descr__bold">Много бесплатного реквизита:</span> зонты,
+                                    дождевики, сигнальные ленты, конусы, бочка,
+                                    вейкборд, надувной фламинго и&nbsp;тд.
+                                </p>
+                                <p class="photo-zone__descr">
+                                    Мотоцикл, шлем и джерси — 1000₽/час.
+                                </p>
+                            </div>
+                            <p class="photo-zone__price-title">Стоимость</p>
+                            <div class="photo-zone__wrapper-prices">
+                                <p class="photo-zone__price">1 час — 3000₽</p>
+                                <p class="photo-zone__price">2 часа — 5000₽</p>
+                                <p class="photo-zone__price">3 часа — 6000₽</p>
+                                <p class="photo-zone__price">От 3-х часов аренды 2000₽/час</p>
+                                <p class="photo-zone__descr">
+                                    Танцевальные группы от&nbsp;10&nbsp;человек&nbsp;&mdash; аренда от&nbsp;2-х часов,
+                                    от&nbsp;15&nbsp;человек&nbsp;&mdash; от&nbsp;3-х часов.
+                                </p>
+                            </div>
+                            <button class="button-booking button-booking--dark photo-zone__button">
+                                <p>забронировать</p>
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="arrow"><path id="Rectangle" d="M3.25354 1H18.3735V16.12" stroke="#111" /><path id="Vector" d="M1 18.7539L18.2535 1" stroke="#111" /></g></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <span class="photo-zone__divider"></span>
+                    <div class="photo-zone">
+                        <div class="photo-zone__info">
+                            <h4 class="section-subtitle">Циклорама</h4>
+                            <div class="photo-zone__wrapper-description">
+                                <p class="photo-zone__descr">
+                                    Белоснежная угловая циклорама, ровная и&nbsp;чистая! Идеальна для коммерческих
+                                    съемок, маркетплейсов и&nbsp;любой творческой задумки.
+                                </p>
+                                <p class="photo-zone__descr">
+                                    Стены: 4&times;4.5м, потолок&nbsp;4м.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class="photo-zone__descr">
+                                            Подвесная система из&nbsp;3-х пантографов и&nbsp;4-х рельс. Обзор световых
+                                            приборов на&nbsp;360 и&nbsp;никаких стоек в&nbsp;кадре!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">
+                                            Флаги 4&nbsp;шт, есть все необходимые насадки для профессиональных съемок
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">
+                                            Современный Блэкаут 100% перекрытие света
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">
+                                            Прекрасное естественное освещение
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="photo-zone__price-title">Стоимость</p>
+                            <div class="photo-zone__wrapper-prices">
+                                <p class="photo-zone__price">1 час — 2000₽</p>
+                                <p class="photo-zone__price">2 часа — 3000₽</p>
+                                <p class="photo-zone__price">3 часа — 4000₽</p>
+                                <p class="photo-zone__price">От 4-х часов аренды 1250₽/час</p>
+                                <p class="photo-zone__descr">Специальные условия для предпринимателей.</p>
+                            </div>
+                            <button class="button-booking button-booking--dark photo-zone__button">
+                                <p>забронировать</p>
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="arrow"><path id="Rectangle" d="M3.25354 1H18.3735V16.12" stroke="#111" /><path id="Vector" d="M1 18.7539L18.2535 1" stroke="#111" /></g></svg>
+                            </button>
+                        </div>
+                        <div class="photo-zone__gallery">
+                            <img src="images/photo_zone_сyclorama_main.png" alt="Зал 'Дождь'" class="photo-zone__main-image">
+                            <img src="images/photo_zone_сyclorama_1.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_сyclorama_2.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_сyclorama_3.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_сyclorama_4.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_сyclorama_5.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_сyclorama_6.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                        </div>
+                    </div>
+                    <span class="photo-zone__divider"></span>
+                    <div class="photo-zone">
+                        <div class="photo-zone__gallery">
+                            <img src="images/photo_zone_interior_main.png" alt="Зал 'Дождь'" class="photo-zone__main-image">
+                            <img src="images/photo_zone_interior_1.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_interior_2.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_interior_3.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_interior_4.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_interior_5.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_interior_6.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                        </div>
+                        <div class="photo-zone__info">
+                            <h4 class="section-subtitle">Интерьерный</h4>
+                            <div class="photo-zone__wrapper-description">
+                                <p class="photo-zone__descr__bold">Конференц-зал</p>
+                                <p class="photo-zone__descr">
+                                    Зал в&nbsp;винтажном классическом стиле с&nbsp;тремя фото локациями.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class="photo-zone__descr">Белая современная классика</p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">Римский стиль с колоннами</p>
+                                    </li>
+                                    <li>
+                                        <p class="photo-zone__descr">Винтажная стена с трещинами</p>
+                                    </li>
+                                </ul>
+                                <p class="photo-zone__descr">
+                                    Отличный вариант для свадебных фотосессий.
+                                </p>
+                                <p class="photo-zone__descr">
+                                    Большое пространство для ваших конференций, обучений и&nbsp;мастер-классов. Огромная
+                                    зеркальная стена идеальна для любых групповых занятий.
+                                </p>
+                            </div>
+                            <p class="photo-zone__price-title">Стоимость</p>
+                            <div class="photo-zone__wrapper-prices">
+                                <p class="photo-zone__price">1 час — 2000₽</p>
+                                <p class="photo-zone__price">2 часа — 3000₽</p>
+                                <p class="photo-zone__price">3 часа — 4000₽</p>
+                                <p class="photo-zone__price">От 4-х часов аренды 1250₽/час</p>
+                                <p class="photo-zone__descr">
+                                    Аренда под мероприятия и&nbsp;занятия на&nbsp;специальных условиях.
+                                </p>
+                            </div>
+                            <button class="button-booking button-booking--dark photo-zone__button">
+                                <p>забронировать</p>
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="arrow"><path id="Rectangle" d="M3.25354 1H18.3735V16.12" stroke="#111" /><path id="Vector" d="M1 18.7539L18.2535 1" stroke="#111" /></g></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <span class="photo-zone__divider"></span>
+                    <div class="photo-zone">
+                        <div class="photo-zone__info">
+                            <h4 class="section-subtitle">Лофт</h4>
+                            <div class="photo-zone__wrapper-description">
+                                <p class="photo-zone__descr__bold">Коворкинг</p>
+                                <p class="photo-zone__descr">
+                                    Зал в&nbsp;стиле лофт с&nbsp;красивым естественным освещением! Место для создания
+                                    стильных фото/видео кадров.
+                                </p>
+                                <p class="photo-zone__descr">
+                                    Есть свой отдельный вход и&nbsp;зона раздевалки. Зал подходит для создания комьюнити
+                                    с&nbsp;рабочими местами, в&nbsp;уютной атмосфере.
+                                </p>
+                                <p class="photo-zone__descr">
+                                    Высокоскоростной wi-fi и&nbsp;кофе-машина, проектор для тебя или твоей творческой
+                                    группы.
+                                </p>
+                            </div>
+                            <p class="photo-zone__price-title">Стоимость</p>
+                            <div class="photo-zone__wrapper-prices">
+                                <p class="photo-zone__price">1 час — 1500₽</p>
+                                <p class="photo-zone__price">2 часа — 2500₽</p>
+                                <p class="photo-zone__price">3 часа — 3000₽</p>
+                                <p class="photo-zone__price">От 4-х часов аренды 1250₽/час</p>
+                                <p class="photo-zone__descr">
+                                    Мастер-классы, интервью, обучение, коворкинг на&nbsp;специальных условиях.
+                                </p>
+                            </div>
+                            <button class="button-booking button-booking--dark photo-zone__button">
+                                <p>забронировать</p>
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="arrow"><path id="Rectangle" d="M3.25354 1H18.3735V16.12" stroke="#111" /><path id="Vector" d="M1 18.7539L18.2535 1" stroke="#111" /></g></svg>
+                            </button>
+                        </div>
+                        <div class="photo-zone__gallery">
+                            <img src="images/photo_zone_loft_main.png" alt="Зал 'Дождь'" class="photo-zone__main-image">
+                            <img src="images/photo_zone_loft_1.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_loft_2.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_loft_3.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_loft_4.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_loft_5.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                            <img src="images/photo_zone_loft_6.png" alt="Зал 'Дождь'" class="photo-zone__image">
+                        </div>
+                    </div>
+                    <span class="photo-zone__divider"></span>
+                </section>
+
+            </div>
+
+            <section class="more-halls">
+                <div class="more-halls__wrapper-title">
+                    <div class="more-halls__bg-title"></div>
+                    <div class="content-container">
+                        <div class="more-halls__wrapper-title-content">
+                            <h3 class="more-halls__title">другие зоны <span>(3)</span></h3>
+                            <p class="more-halls__descr">
+                                Кроме залов мы оборудовали студию другими необходимыми зонами для
+                                вашего комфорта
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <div class="other-zone">
+                        <h4 class="section-subtitle other-zone__title">гримерная</h4>
+                        <p class="other-zone__descr">
+                            Два рабочих места со&nbsp;всем необходимым.
+                            Есть отпариватель, утюг и&nbsp;рейлы для одежды.
+                        </p>
+                        <div class="other-zone__wrapper-images">
+                            <img src="images/dressing_room_1.jpg" alt="гримерная" loading="lazy" class="other-zone__image">
+                            <img src="images/dressing_room_2.jpg" alt="гримерная" loading="lazy" class="other-zone__image">
+                        </div>
+                    </div>
+                    <div class="other-zone">
+                        <div class="other-zone__wrapper-images">
+                            <img src="images/wardrobe_for_adults_1.jpg" alt="гардероб для взрослых" loading="lazy" class="other-zone__image">
+                            <img src="images/wardrobe_for_adults_2.jpg" alt="гардероб для взрослых" loading="lazy" class="other-zone__image">
+                        </div>
+                        <h4 class="section-subtitle other-zone__title">гардероб<span>(для взрослых)</span></h4>
+                        <p class="other-zone__descr">
+                            Можно воспользоваться прокатом одежды, обуви и&nbsp;аксессуаров на&nbsp;базе студии.
+                        </p>
+                    </div>
+                    <div class="other-zone">
+                        <h4 class="section-subtitle other-zone__title">гардероб<span>(для детей)</span></h4>
+                        <p class="other-zone__descr">
+                            Доступны в&nbsp;прокат платья для девочек разных возрастов.
+                        </p>
+                        <div class="other-zone__wrapper-images">
+                            <img src="images/wardrobe_for_children_1.jpg" alt="гардероб для детей" loading="lazy" class="other-zone__image">
+                            <img src="images/wardrobe_for_children_2.jpg" alt="гардероб для детей" loading="lazy" class="other-zone__image">
+                        </div>
+                    </div>
+                    <span class="more-halls__divider"></span>
+                </div>
+            </section>
+
+            <div class="content-container">
+
+                <section class="special-offer">
+                    <img src="images/special_offer_1.jpg" alt="" loading="lazy" class="special-offer__image--image-1">
+                    <h4 class="section-title special-offer__title">акция</h4>
+                    <img src="images/special_offer_2.jpg" alt="" loading="lazy" class="special-offer__image--image-2">
+                    <p class="special-offer__descr">На первое посещение студии по промокоду <span>«ВОДОЛЕЙ»</span></p>
+                    <p class="special-offer__accent-text">скидка 50%</p>
+                    <button class="button-booking button-booking--dark special-offer__button">
+                        <p>забронировать</p>
+                        <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="arrow"><path id="Rectangle" d="M3.25354 1H18.3735V16.12" stroke="#111" /><path id="Vector" d="M1 18.7539L18.2535 1" stroke="#111" /></g></svg>
+                    </button>
+                    <img src="images/special_offer_3.jpg" alt="" loading="lazy" class="special-offer__image--image-3">
+                    <img src="images/special_offer_4.jpg" alt="" loading="lazy" class="special-offer__image--image-4">
+                    <p class="special-offer__text">
+                        Первая и&nbsp;единственная фотостудия <br> Нижнего Новгорода с&nbsp;аквазалом
+                    </p>
+                    <img src="images/special_offer_5.jpg" alt="" loading="lazy" class="special-offer__image--image-5">
+                </section>
+
+            </div>
+
+            <section class="promo-video">
+                <div class="video-title">
+                    <span class="video-title__divider"></span>
+                    <div class="video-title__items-wrap">
+                        <div class="video-title__items marquee">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">посмотрите рум-тур</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">творческое пространство</p>
+                        </div>
+                        <div aria-hidden="true" class="video-title__items marquee">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">посмотрите рум-тур</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">творческое пространство</p>
+                        </div>
+                    </div>
+                    <span class="video-title__divider"></span>
+                    <div class="video-title__items-wrap">
+                        <div class="video-title__items marquee reverce">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">как устроена фотостудия «тейя»</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">как устроена фотостудия «тейя»</p>
+                        </div>
+                        <div aria-hidden="true" class="video-title__items marquee reverce">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">как устроена фотостудия «тейя»</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">как устроена фотостудия «тейя»</p>
+                        </div>
+                    </div>
+                    <span class="video-title__divider"></span>
+                </div>
+                <div class="content-container">
+                    <video src="images/video/promo_video_1.mp4" preload="metadata" poster="images/promo_video_preloader.png" controls class="video"></video>
+                </div>
+            </section>
+
+            <div class="content-container">
+
+                <section id="hardware" class="hardware">
+                    <img src="images/hardware_background.png" alt="" loading="lazy" class="hardware__background-image">
+                    <div class="hardware__content">
+                        <h4 class="section-title hardware__title">оборудование</h4>
+                        <p class="hardware__text hardware__text--1">
+                            Импульсные источники 6&nbsp;шт <br />
+                            Постоянный свет 4&nbsp;шт <br />
+                            RGB (Цветной свет) 4&nbsp;шт<br />
+                            Радиосинхронизатор цифровой 2шт <br />
+                            Радиосинхронизатор механический 1&nbsp;шт<br />
+                            Стойки для оборудования 17шт <br />
+                            Комплект стоек для цветного фона и&nbsp;баннеров&nbsp;&mdash; 1шт <br />
+                            Журавль, систенд, пантограф
+                        </p>
+                        <p class="hardware__text hardware__text--2">
+                            Маски Гобо <br />
+                            Цветные фильтры (шторки, гелевые, стекла)<br />
+                            Шторки с&nbsp;сотами 2&nbsp;шт <br />
+                            Рефлекторы 7&nbsp;шт <br />
+                            Фоновый рефлектор 1&nbsp;шт <br />
+                            Портретная тарелка 2&nbsp;шт <br />
+                            Стрипбокс с&nbsp;сотами 4шт <br />
+                            Софтбокс 1шт <br />
+                            Октобокс 2&nbsp;шт <br />
+                            Отражатель на&nbsp;просвет 5&nbsp;в 1&nbsp;&mdash; 1&nbsp;шт<br />
+                            Зонты 3шт<br />
+                            Флаги 4&nbsp;шт
+                        </p>
+                        <p class="hardware__text hardware__text--3">
+                            Генератор дыма 2&nbsp;шт <br />
+                            Лазер 1шт <br />
+                            Проектор 1шт <br />
+                            Вентилятор напольный 1шт <br />
+                            Жидкое зеркало и&nbsp;дискошар <br />
+                            Цветные фоны (зелёный, желтый, розовый, голубой)
+                        </p>
+                    </div>
+                </section>
+
+                <section id="services" class="services">
+                    <h4 class="section-title services__title">услуги</h4>
+                    <div class="services__wrapper-items">
+                        <div class="services-card services-card--up">
+                            <img src="images/services_1.jpg" alt="Коммерческие съемки" loading="lazy" class="services-card__image">
+                            <h5 class="services-card__title">Коммерческие съемки</h5>
+                            <div class="services-card__wrapper-descr">
+                                <p class="services-card__descr services-card__descr--bold">
+                                    Маркетплейсы, каталожные, рекламные на&nbsp;выгодных условиях от&nbsp;1000₽/час.
+                                </p>
+                                <p class="services-card__descr">
+                                    В&nbsp;неё входит: идеально белая и&nbsp;чистая циклорама,
+                                    профессиональное оборудование, фото/видеосъемка по&nbsp;запросу.
+                                </p>
+                                <p class="services-card__accent-text">
+                                    Пробный час в подарок
+                                </p>
+                            </div>
+                        </div>
+                        <div class="services-card services-card--down">
+                            <img src="images/services_2.jpg" alt="Предметная съемка «под ключ»" loading="lazy" class="services-card__image">
+                            <h5 class="services-card__title">Предметная съемка «под ключ»</h5>
+                            <div class="services-card__wrapper-descr">
+                                <p class="services-card__descr services-card__descr--bold">
+                                    Маркетплейсы, каталожные, рекламные на&nbsp;выгодных условиях от&nbsp;1000₽/час.
+                                </p>
+                                <p class="services-card__descr">
+                                    В&nbsp;неё входит: идеально белая и&nbsp;чистая циклорама,
+                                    профессиональное оборудование, фото/видеосъемка по&nbsp;запросу.
+                                </p>
+                                <p class="services-card__accent-text">
+                                    Пробный час в подарок
+                                </p>
+                            </div>
+                        </div>
+                        <div class="services-card services-card--up">
+                            <img src="images/services_3.jpg" alt="Фотосессия «под ключ»" loading="lazy" class="services-card__image">
+                            <h5 class="services-card__title">Фотосессия «под ключ»</h5>
+                            <div class="services-card__wrapper-descr">
+                                <p class="services-card__descr services-card__descr--bold">
+                                    Маркетплейсы, каталожные, рекламные на&nbsp;выгодных условиях от&nbsp;1000₽/час.
+                                </p>
+                                <p class="services-card__descr">
+                                    Идеально белая и&nbsp;чистая циклорама, профессиональное оборудование,
+                                    фото/видеосъемка по&nbsp;запросу.
+                                </p>
+                                <p class="services-card__accent-text">
+                                    Пробный час в подарок
+                                </p>
+                            </div>
+                        </div>
+                        <div class="services-card services-card--up">
+                            <img src="images/services_4.jpg" alt="Праздник/мероприятие «под ключ»" loading="lazy" class="services-card__image">
+                            <h5 class="services-card__title">Праздник/мероприятие &laquo;под ключ&raquo;</h5>
+                            <div class="services-card__wrapper-descr">
+                                <p class="services-card__descr services-card__descr--bold">
+                                    Дни рождения, гендер-пати, девичники, мастер-классы, обучения и&nbsp;тд.
+                                </p>
+                                <p class="services-card__descr">
+                                    В&nbsp;неё входит: аренда зала, оборудование, фото/видео съемка, декоратор,
+                                    фуршет, образ от&nbsp;визажиста, гардероб, ведущий.
+                                </p>
+                                <p class="services-card__descr">
+                                    Специальные предложения и&nbsp;скидки от&nbsp;партнеров,
+                                    индивидуальный подход, стоимость формируется от&nbsp;ваших запросов
+                                </p>
+                            </div>
+                        </div>
+                        <div class="services-card services-card--down">
+                            <img src="images/services_5.jpg" alt="Бизнес-портрет" loading="lazy" class="services-card__image">
+                            <h5 class="services-card__title">Бизнес-портрет</h5>
+                            <div class="services-card__wrapper-descr">
+                                <p class="services-card__descr">
+                                    В&nbsp;неё входит: стилист, визажист, фотограф, локации, бэкстейджи для соцсетей.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="services-card services-card--up">
+                            <img src="images/services_6.jpg" alt="Другие услуги" loading="lazy" class="services-card__image">
+                            <h5 class="services-card__title">Другие услуги</h5>
+                            <div class="services-card__wrapper-descr">
+                                <ul class="services-card__list">
+                                    <li>Штатный фотограф от&nbsp;2000₽/час</li>
+                                    <li>Штатный видеограф от&nbsp;2000₽/час</li>
+                                    <li>Штатный визажист от&nbsp;1000₽</li>
+                                    <li>Штатный декоратор на&nbsp;выгодных условиях, стоимость формируется от&nbsp;ваших запросов</li>
+                                    <li>Бэкстейдж вашей съемки от&nbsp;500₽</li>
+                                    <li>Интересные фотопроекты с&nbsp;расписанием на&nbsp;каждый месяц с&nbsp;участием от&nbsp;3.000₽</li>
+                                    <li>Гардероб на&nbsp;базе студии (прокат одежды на&nbsp;съемку и&nbsp;мероприятия)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-services">
+                        <h5 class="more-services__subtitle">Так&nbsp;же на&nbsp;базе студии на&nbsp;постоянной основе проходят:</h5>
+                        <div class="more-services__wrapper-items">
+                            <h6 class="more-services__item">Занятия в&nbsp;модельной школе для взрослых</h6>
+                            <h6 class="more-services__item">Занятия детской модельной школы</h6>
+                            <h6 class="more-services__item">Мастер-классы по&nbsp;рисованию на&nbsp;мольбертах 1500₽/чел.</h6>
+                            <h6 class="more-services__item">Мастер-классы по&nbsp;декору от&nbsp;1000₽/человек</h6>
+                            <h6 class="more-services__item">Воркшопы для фотографов и видеографов</h6>
+                            <h6 class="more-services__item">Дни открытых дверей</h6>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <section class="promo-video">
+                <div class="video-title">
+                    <span class="video-title__divider"></span>
+                    <div class="video-title__items-wrap">
+                        <div class="video-title__items marquee">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">видео с открытия студии</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">как это было</p>
+                        </div>
+                        <div aria-hidden="true" class="video-title__items marquee">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">видео с открытия студии</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none"><circle cx="14.5" cy="14.5" r="14.5" fill="#111111" /></svg>
+                            <p class="video-title__item">как это было</p>
+                        </div>
+                    </div>
+                    <span class="video-title__divider"></span>
+                </div>
+                <div class="content-container">
+                    <video src="images/video/promo_video_2.mp4" preload="metadata" poster="images/promo_video_preloader_2.png" controls class="video"></video>
+                </div>
+            </section>
+
+            <div class="content-container">
+
+                <section class="stocks">
+                    <h5 class="section-title stocks__title">акции<span>(спецпредложения)</span></h5>
+                    <div class="promo-code">
+                        <p class="promo-code__text">
+                            На&nbsp;первое посещение студии скидка&nbsp;50% по&nbsp;промокоду <b class="bold">&laquo;ВОДОЛЕЙ&raquo;</b>
+                        </p>
+                        <button class="button-booking button-booking--light">
+                            <p>забронировать</p>
+                            <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="arrow"><path id="Rectangle" d="M3.25354 1H18.3735V16.12" stroke="white" /><path id="Vector" d="M1 18.7539L18.2535 1" stroke="white" /></g></svg>
+                        </button>
+                    </div>
+                    <div class="stocks__wrapper">
+                        <p class="stocks__category">для фотографов и&nbsp;видеографов</p>
+                        <div class="stocks-item">
+                            <span class="stocks-item__number">01</span>
+                            <div class="stocks-item__visible-wrapper">
+                                <h6 class="stocks-item__name">100 000₽ за&nbsp;лучшую работу года</h6>
+                                <p class="stocks-item__description">
+                                    Ежемесячно в&nbsp;нашей фотостудии проходит конкурс &laquo;лучшее фото месяца&raquo; по&nbsp;итогам
+                                    которого мы&nbsp;определяем победителей и&nbsp;награждаем их&nbsp;бесплатными часами аренды нашей
+                                    студии.
+                                </p>
+                            </div>
+                            <button class="button-visible"></button>
+                            <div class="hidden-content">
+                                <p class="stocks-item__description">
+                                    Фотографы, занявшие первые места, попадают в&nbsp;список участников годового розыгрыша
+                                    на&nbsp;закрытую
+                                    вечеринку, где мы&nbsp;разыгрываем депозит в&nbsp;нашу студию на&nbsp;100 000₽.
+                                </p>
+                                <p class="stocks-item__description stocks-item__description--uppercase">ВАЖНО:</p>
+                                <ol class="stocks-item__list">
+                                    <li class="stocks-item__list-item">
+                                        Участвовать можно каждый месяц, заявки принимаются до&nbsp;15&nbsp;числа каждого месяца
+                                    </li>
+                                    <li class="stocks-item__list-item">
+                                        Можно присылать несколько фото, если на&nbsp;съемке были разные образы/модели и&nbsp;если съемок
+                                        было несколько
+                                    </li>
+                                    <li class="stocks-item__list-item">
+                                        Голосование проходит в&nbsp;Inatagram и&nbsp;в&nbsp;VK, голосовать могут только реальные
+                                        подписчики
+                                        нашего и&nbsp;вашего аккаунтов. Накрутка голосов исключена, влечет за&nbsp;собой
+                                        дисквалификацию.
+                                    </li>
+                                    <li class="stocks-item__list-item">
+                                        Ежемесячные призы получают и&nbsp;фотографы и&nbsp;модели, при этом использование приза
+                                        не&nbsp;привязывает вас друг к&nbsp;другу.
+                                    </li>
+                                </ol>
+                                <p class="stocks-item__description">
+                                    Файл с&nbsp;фото присылайте в&nbsp;личные сообщения, в&nbsp;Telegram или ссылкой на&nbsp;облако:
+                                </p>
+                                <div class="stocks-item__wrapper-images">
+                                    <img src="images/qr_code_1.png" alt="" loading="lazy" class="stocks-item__image">
+                                    <img src="images/qr_code_2.png" alt="" loading="lazy" class="stocks-item__image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stocks-item">
+                            <span class="stocks-item__number">02</span>
+                            <div class="stocks-item__visible-wrapper">
+                                <h6 class="stocks-item__name">Система депозитов</h6>
+                                <p class="stocks-item__description">
+                                    Для постоянных фотографов и&nbsp;видеографов мы&nbsp;предоставляем особые условия на&nbsp;аренду
+                                    и&nbsp;услуги нашей фотостудии.
+                                </p>
+                            </div>
+                            <button class="button-visible"></button>
+                            <div class="hidden-content">
+                                <p class="stocks-item__description">
+                                    Депозит на&nbsp;10 000₽ предоставляет скидку&nbsp;10% на&nbsp;весь общий прайс и&nbsp;скидку&nbsp;5%
+                                    на&nbsp;пакеты часов.
+                                </p>
+                                <p class="stocks-item__description">
+                                    Депозит на&nbsp;20 000₽ предоставляет скидку&nbsp;20% на&nbsp;весь общий прайс и&nbsp;скидку&nbsp;7%
+                                    на&nbsp;пакеты часов.
+                                </p>
+                                <p class="stocks-item__description">
+                                    Депозит на&nbsp;30 000₽ предоставляет скидку&nbsp;30% на&nbsp;весь общий прайс
+                                    и&nbsp;скидку&nbsp;10% на&nbsp;пакеты часов.
+                                </p>
+                                <p class="stocks-item__description stocks-item__description--uppercase">НАПРИМЕР:</p>
+                                <p class="stocks-item__description">
+                                    1&nbsp;час аренды зала &laquo;Дождь&raquo; по&nbsp;прайсу 3000₽&nbsp;&mdash; 30% = 2100₽
+                                </p>
+                                <p class="stocks-item__description stocks-item__description--uppercase">ИЛИ</p>
+                                <p class="stocks-item__description">
+                                    Пакет на&nbsp;3&nbsp;часа аренды зала &laquo;Дождь&raquo; по&nbsp;прайсу 6000₽&nbsp;&mdash; 10% =
+                                    5400₽ (1800₽/час вместо 2000₽/час)
+                                </p>
+                                <p class="stocks-item__description">
+                                    *Если студию оплачивает ваш клиент, то&nbsp;мы&nbsp;просто компенсируем обратно в&nbsp;депозит сумму
+                                    скидки.
+                                </p>
+                                <p class="stocks-item__description">
+                                    *Депозит действует 3&nbsp;месяца с&nbsp;первой съемки.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="stocks-item">
+                            <span class="stocks-item__number">03</span>
+                            <div class="stocks-item__visible-wrapper">
+                                <h6 class="stocks-item__name">Кэшбэк</h6>
+                                <p class="stocks-item__description">
+                                    Система лояльности для активных фотографлов и&nbsp;видеографов.&nbsp;20% кэшбек
+                                    &laquo;активным&raquo; за&nbsp;любую съемку от&nbsp;5&nbsp;броней в&nbsp;месяц.
+                                </p>
+                            </div>
+                            <button class="button-visible"></button>
+                            <div class="hidden-content">
+                                <p class="stocks-item__description">
+                                    *Если было от&nbsp;5&nbsp;съемок за&nbsp;текущий месяц, зачисление кэшбэка происхдит по&nbsp;итогам
+                                    месяца, каждого 1&nbsp;числа нового месяца. Использовать кэшбэк можно для любой последующей съемки.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="stocks-item">
+                            <span class="stocks-item__number">04</span>
+                            <div class="stocks-item__visible-wrapper">
+                                <p class="stocks-item__name">Кэшбэк «Коммерция»</p>
+                                <p class="stocks-item__description">
+                                    Система лояльности для активных фотографлов и&nbsp;видеографов, сотрудничающих с&nbsp;маркетплейсами
+                                    и&nbsp;любыми коммерческими организациями.
+                                </p>
+                            </div>
+                            <button class="button-visible"></button>
+                            <div class="hidden-content">
+                                <p class="stocks-item__description">
+                                    10% кэшбэк &laquo;коммерция&raquo;.
+                                </p>
+                                <p class="stocks-item__description">
+                                    Подробности уточняйте у&nbsp;администратора.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stocks__wrapper">
+                        <p class="stocks__category">для клиентов</p>
+                        <div class="stocks-item">
+                            <span class="stocks-item__number">01</span>
+                            <div class="stocks-item__visible-wrapper">
+                                <h6 class="stocks-item__name">Система скидок для коммерческих проектов</h6>
+                                <p class="stocks-item__description">
+                                    Первый пробный час предоставляется бесплатно.
+                                </p>
+                            </div>
+                            <button class="button-visible"></button>
+                            <div class="hidden-content">
+                                <p class="stocks-item__description">
+                                    При единоразовой оплате депозита на&nbsp;20&nbsp;часов&nbsp;&mdash; стоимость аренды зала 1000₽/час,
+                                    то&nbsp;есть 20 000₽.
+                                </p>
+                                <p class="stocks-item__description">
+                                    *Использовать часы можно в&nbsp;разные дни, во&nbsp;всех залах, кроме зала &laquo;Дождь&raquo;.
+                                </p>
+                                <p class="stocks-item__description">
+                                    Клиентам, нацеленным на&nbsp;долгосрочные взаимовыгодные отношения, которым не&nbsp;подходит система
+                                    депозита, предоставляем фиксированную сумму 1250₽/час при бронировании от&nbsp;4-х часов 1200₽/час.
+                                </p>
+                                <p class="stocks-item__description">
+                                    *Оплата может совершаться на&nbsp;Р/С&nbsp;&mdash; нужно предоставить подтверждающие документы.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="gallery">
+                    <h5 class="section-title">фотогалерея</h5>
+                    <div class="gallery__images-wrapper">
+                        <img src="images/gallery_1.png" alt="" loading="lazy" class="gallery__image-1">
+                        <img src="images/gallery_2.png" alt="" loading="lazy" class="gallery__image-2">
+                        <img src="images/gallery_3.png" alt="" loading="lazy" class="gallery__image-3">
+                        <img src="images/gallery_4.png" alt="" loading="lazy" class="gallery__image-4">
+                        <img src="images/gallery_5.png" alt="" loading="lazy" class="gallery__image-5">
+                        <img src="images/gallery_6.png" alt="" loading="lazy" class="gallery__image-6">
+                        <img src="images/gallery_7.png" alt="" loading="lazy" class="gallery__image-7">
+                        <img src="images/gallery_8.png" alt="" loading="lazy" class="gallery__image-8">
+                        <img src="images/gallery_9.png" alt="" loading="lazy" class="gallery__image-9">
+                    </div>
+                    <div class="slider-buttons">
+                        <button class="slider-buttons__button-left">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 32" fill="none"><rect x="50.5" y="31.1914" width="50" height="30" rx="15" transform="rotate(180 50.5 31.1914)" stroke="#111111"/><path d="M27 21.6914L21.182 15.8734L27 10.0554" stroke="#111111"/></svg>
+                        </button>
+                        <span class="slider-buttons__text">листайте вправо/влево</span>
+                        <button class="slider-buttons__button-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 32" fill="none"><rect x="50.5" y="31.1914" width="50" height="30" rx="15" transform="rotate(180 50.5 31.1914)" stroke="#111111"/><path d="M27 21.6914L21.182 15.8734L27 10.0554" stroke="#111111"/></svg>
+
+                        </button>
+                    </div>
+                    <div class="wrapper-slider">
+                        <div class="slider">
+                            <img src="images/slider_image_1.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_2.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_3.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_4.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_5.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_6.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_7.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_8.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_9.png" alt="" loading="lazy" class="slider__image">
+    
+                            <img src="images/slider_image_1.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_2.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_3.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_4.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_5.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_6.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_7.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_8.png" alt="" loading="lazy" class="slider__image">
+                            <img src="images/slider_image_9.png" alt="" loading="lazy" class="slider__image">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="team" class="team">
+                    <h5 class="section-title">наша - команда</h5>
+                    <div class="team__wrapper">
+                        <div class="team-item team-item--2rows">
+                            <img src="images/team_item_image_1.jpg" alt="" loading="lazy" class="team-item__video">
+                            <h6 class="team-item__title">Прочувствуйте атмосферу съемок</h6>
+                        </div>
+                        <div class="team-item">
+                            <img src="images/alexander_zverev.png" alt="" loading="lazy" class="team-item__image">
+                            <h6 class="team-item__title">Александр Зверев</h6>
+                            <p class="team-item__description">(управляющий студии)</p>
+                        </div>
+                        <div class="team-item team-item--2colums">
+                            <img src="images/ulyana_zhavoronkova.png" alt="" loading="lazy" class="team-item__image">
+                            <h6 class="team-item__title">Ульяна Жаворонкова</h6>
+                            <p class="team-item__description">(арт-директор/штатный декоратор)</p>
+                        </div>
+                        <div class="team-item">
+                            <img src="images/roman_khudyakov.png" alt="" loading="lazy" class="team-item__image">
+                            <h6 class="team-item__title">Роман Худяков</h6>
+                            <p class="team-item__description">(штатный видеограф)</p>
+                        </div>
+                        <div class="team-item">
+                            <img src="images/kristina_seredneva.png" alt="" loading="lazy" class="team-item__image">
+                            <h6 class="team-item__title">Кристина Середнёва</h6>
+                            <p class="team-item__description">(штатный фотограф)</p>
+                        </div>
+                        <div class="team-item">
+                            <img src="images/pavel_and_olga_danilova.png" alt="" loading="lazy" class="team-item__image">
+                            <h6 class="team-item__title">Павел и Ольга Даниловы</h6>
+                            <p class="team-item__description">(владельцы студии)</p>
+                        </div>
+                    </div>
+                </section>
+
+                <h1 class="main__title">
+                    <span><strong class="medium">Арт-фотостудия «Тейя» —</strong></span>
+                    <span><strong class="medium">это 300 кв.м для вашего</strong></span>
+                    <span><strong class="medium">комфортного творчества</strong></span>
+                </h1>
+                <h2 class="main__subtitle">
+                    У&nbsp;нас крутой сервис&nbsp;&mdash; с&nbsp;комфортной зоной ожидания, кофе и&nbsp;отзывчивым персоналом. Наши
+                    штатные фотограф, видеограф и&nbsp;декоратор всегда готовы воплощать ваши идеи и&nbsp;предлагают свои!
+                </h2>
+
+                <section class="frequent-questions">
+                    <h5 class="section-title frequent-questions__title">частые вопросы<span>(отвечаем)</span></h5>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">01</span>
+                        <h6 class="question-item__title">В аквазале вода теплая?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Да, вода теплая, регулируется 37-40&nbsp;градусов. Кроме этого установлены теплые полы для вашего комфорта.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">02</span>
+                        <h6 class="question-item__title">У&nbsp;вас есть фен? Он&nbsp;платный?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Да, после съемки мы&nbsp;предоставляем вам фен и&nbsp;полотенце бесплатно. Дополнительное полотенце +150₽.
+                                <br />
+                                Так&nbsp;же вы&nbsp;можете бесплатно принять душ при необходимости, воспользоваться средствами для снятия
+                                макияжа
+                                и&nbsp;пакетами для мокрой одежды.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">03</span>
+                        <h6 class="question-item__title">Вы&nbsp;предоставляете полотенца? Пакеты для мокрой одежды есть?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Да, после съемки мы&nbsp;предоставляем вам фен и&nbsp;полотенце бесплатно. Дополнительное полотенце +150₽.
+                                <br />
+                                Так&nbsp;же вы&nbsp;можете бесплатно принять душ при необходимости, воспользоваться средствами для снятия
+                                макияжа
+                                и&nbsp;пакетами для мокрой одежды.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">04</span>
+                        <h6 class="question-item__title">Сколько стоит гримерка? Можно забронировать гримерку?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Гримерка предоставляется бесплатно за&nbsp;30&nbsp;минут до&nbsp;начала съемки. Свыше 30&nbsp;минут, рассчет
+                                250₽/час за&nbsp;место. У&nbsp;нас 2&nbsp;места в&nbsp;гримерной зоне. Отпариватель и&nbsp;утюг
+                                предоставляется
+                                бесплатно.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">05</span>
+                        <h6 class="question-item__title">Есть&nbsp;ли в&nbsp;студии отпариватель?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Да, отпариватель есть и&nbsp;предоставляется бесплатно. Так&nbsp;же есть утюг и&nbsp;рейлы для вашего
+                                гардероба.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">06</span>
+                        <h6 class="question-item__title">Есть&nbsp;ли какие-то особые правила?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Циклорама: посещается строго с&nbsp;заклеенной скотчем подошвой. Танцевать на&nbsp;каблуках в&nbsp;циклораме
+                                строго
+                                запрещено.<br />
+                                <br />
+                                Ванна: Красители в&nbsp;ванну добавляются строго по&nbsp;согласованию. Вставать в&nbsp;ванну
+                                на&nbsp;каблуках строго
+                                запрещено. Специфический реквизит в&nbsp;виде сухих смесей и&nbsp;красящих жидкостей строго
+                                по&nbsp;согласованию.
+                                Оборудование под воду ставить запрещается.<br />
+                                <br />
+                                Любое животное на&nbsp;съемке только через согласование.<br />
+                                <br />
+                                Если вам нужна помощь, позовите администратора. У&nbsp;нас очень отзывчивый персонал.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">07</span>
+                        <h6 class="question-item__title">Есть&nbsp;ли скидки?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Скидки предоставляются при бронировании зала от&nbsp;2-х часов и&nbsp;больше. Согласно актуальному
+                                прайсу.<br />
+                                <br />
+                                Так&nbsp;же есть спец условия для коммерческих съемок организаций и&nbsp;маркетплейсов.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">08</span>
+                        <h6 class="question-item__title">На&nbsp;пол часа сдаете зал?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Зал сдается от&nbsp;1&nbsp;часа. Либо вы&nbsp;бронируете два зала по&nbsp;пол часа. <br />
+                                <br />
+                                Так&nbsp;же мы&nbsp;можем сдать зал на&nbsp;30&nbsp;минут если вы&nbsp;бронируете другой зал
+                                на&nbsp;1&nbsp;час
+                                и&nbsp;в&nbsp;общей сумме у&nbsp;вас выходит 1,5&nbsp;часа. Другие случаи обсуждаются индивидуально. <br />
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">09</span>
+                        <h6 class="question-item__title">Сколько человек может находиться в&nbsp;зале?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Свыше 10&nbsp;человек, согласование.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">10</span>
+                        <h6 class="question-item__title">
+                            Можно&nbsp;ли танцевать в&nbsp;аквазале?<br />
+                            Можно в&nbsp;зал дождь на&nbsp;каблуках?
+                        </h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Да, на&nbsp;каблуках можно. Танцевать можно. <br />
+                                <br />
+                                Во&nbsp;время танцев происходит более агрессивное использование локации. В&nbsp;целях вашей&nbsp;же
+                                безопасности, администраторы вправе остановить съемку в&nbsp;любой момент для технического обслуживания
+                                зала. На&nbsp;это в&nbsp;среднем уходит 5-10&nbsp;минут. <br />
+                                <br />
+                                Танцы от&nbsp;10&nbsp;человек: сдаем не&nbsp;менее чем на&nbsp;2&nbsp;часа, стоимость 5000₽ <br />
+                                Танцы от&nbsp;15&nbsp;человек минимум на&nbsp;3&nbsp;часа, стоимость 6000₽<br />
+                                Танцевальным группам 1-9 человек возможно арендовать зал на&nbsp;1-1,5&nbsp;часа. <br />
+                                <br />
+                                Так&nbsp;же организатор проведения съемок подписывает доп соглашение об&nbsp;материальной ответственности
+                                за&nbsp;всех участников съемки.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">11</span>
+                        <h6 class="question-item__title">Сдаете зал дождь без воды?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Да, стоимость зала без воды 2000₽/час, от&nbsp;2-х часов и&nbsp;больше 1500₽/час.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">12</span>
+                        <h6 class="question-item__title">
+                            Сколько стоит световое оборудование?<br />
+                            Сколько источников света предоставляете?
+                        </h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Свет входит в&nbsp;стоимость аренды. Заранее вы&nbsp;можете забронировать нужное количество источников света
+                                и&nbsp;фильтры, насадки и&nbsp;тд. <br />
+                                <br />
+                                Дополнительные платные услуги: Гримерка пол часа бесплатно, дальше 500₽/час. <br />
+                                Дым, лазеры, цифровой проектор, жидкие зеркала 500₽/час.<br />
+                                Мотоцикл под воду +1000₽.<br />
+                                Ванна с&nbsp;водой +1000₽.<br />
+                                Гардероб по&nbsp;прайсу.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">13</span>
+                        <h6 class="question-item__title">Сколько человек вмещает циклорама?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Зал &laquo;Циклорама&raquo; 40&nbsp;кВ.м. Циклорама на&nbsp;три плоскости. Высота потолков 4&nbsp;метра
+                                <br />
+                                Стены 4&nbsp;на 5,5&nbsp;м.<br />
+                                В&nbsp;нашей циклораме снимали клипы с&nbsp;20&nbsp;участниками. Вы&nbsp;всегда можете заранее приехать
+                                и&nbsp;посмотреть залы студии.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">14</span>
+                        <h6 class="question-item__title">Какое оборудование у&nbsp;вас есть?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Наша студия оснащена современным разнообразным оборудованием. Импульсные и&nbsp;постоянные источники можно
+                                использовать в&nbsp;необходимом объеме. Так&nbsp;же много дополнительного оборудования. Вы&nbsp;всегда
+                                можете уточнить у&nbsp;администратора интересующий вас вопрос.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">15</span>
+                        <h6 class="question-item__title">У&nbsp;вас есть цветные фильтры?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Наша студия оснащена современным разнообразным оборудованием. Цветные гелевый фильтры, цветные шторки, маски
+                                гобо, RGB-свет, все это предоставляется бесплатно.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">16</span>
+                        <h6 class="question-item__title">Дождь идет все время аренды? Как работает дождь?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Дождем управляете вы&nbsp;сами. Система включает в&nbsp;себя: крупный дождь, мелкий дождь и&nbsp;тропический
+                                душ за&nbsp;стеклом. Крупный и&nbsp;мелкий дождь можно чередовать по&nbsp;желанию. Тропический душ включает
+                                администратор. Так&nbsp;же администратор может прервать съемку для технического обслуживания зала
+                                на&nbsp;5-10&nbsp;минут, если это требуется.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">17</span>
+                        <h6 class="question-item__title">Ванна в&nbsp;зале контент наполняется?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Да, наполнение ванны +1000₽ к&nbsp;аренде. Необходимо предупредить об&nbsp;этом заранее. Так&nbsp;же ванну
+                                можно перенести в&nbsp;любой другой зал.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                    <div class="question-item">
+                        <span class="question-item__number">18</span>
+                        <h6 class="question-item__title">Есть&nbsp;ли у&nbsp;вас колонка?</h6>
+                        <button class="button-visible"></button>
+                        <div class="hidden-content">
+                            <p class="question-item__description">
+                                Да, в&nbsp;каждом зале есть Яндекс станция Алиса с&nbsp;оплаченой подпиской. Так&nbsp;же можно подключить
+                                колонку к&nbsp;своему телефону.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="frequent-questions__dividing-line">
+                </section>
+            
+            </div>
+
+        </main>
+
+        <div class="content-container">
+
+            <footer id="footer" class="footer">
+                <div class="footer__wrapper-title">
+                    <img src="images/footer_logo.svg" alt="" loading="lazy" class="footer__logo">
+                    <h6 class="footer__title">арт фотостудия</h6>
+                </div>
+                <hr class="footer__dividing-line">
+                <div class="footer__content">
+                    <div class="footer__wrapper">
+                        <div>
+                            <p class="footer__text"><strong class="bold">Адрес фотостудии</strong></p>
+                            <p class="footer__text">Нижний Новгород, улица Нестерова, 22</p>
+                            <p class="footer__text"><b class="bold">+7 (987) 394-58-31</b></p>
+                        </div>
+                        <div>
+                            <p class="footer__text"><b class="bold">Как добраться</b></p>
+                            <p class="footer__text">
+                                В&nbsp;навигаторе набирайте Тейя, приведет с&nbsp;нужной стороны, с&nbsp;Большой Печерской. Ориентир
+                                ресторан АМО, мы&nbsp;их&nbsp;соседи.
+                            </p>
+                            <p class="footer__text">
+                                Если забьете&nbsp;ул. Нестерова, д.22, то&nbsp;приведет с&nbsp;другой стороны. Придется обходить
+                                дом.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__wrapper">
+                        <div>
+                            <p class="footer__text"><strong class="bold">Навигация</strong></p>
+                            <a href="#" class="footer__link">Залы</a>
+                            <a href="#" class="footer__link">оборудование</a>
+                            <a href="#" class="footer__link">услуги</a>
+                            <a href="#" class="footer__link">о студии</a>
+                        </div>
+                        <div>
+                            <a href="#" class="footer__link footer__link--neutral">Политика конфиденциальности</a>
+                            <a href="#" class="footer__link footer__link--neutral">Все права защищены</a>
+                        </div>
+                    </div>
+                    <div class="footer__wrapper">
+                        <div>
+                            <p class="footer__text"><strong class="bold">Социальные сети</strong></p>
+                            <a href="#" class="footer__link">telegram</a>
+                            <a href="#" class="footer__link">вконтакте</a>
+                            <a href="#" class="footer__link">instagram</a>
+                        </div>
+                        <div>
+                            <p class="footer__text footer__text--neutral">* Meta признана экстремистской  организацией в РФ</p>
+                        </div>
+                    </div>
+                    <div class="footer__wrapper">
+                        <a href="#" class="footer__map-link">Смотреть на&nbsp;Яндекс картах</a>
+                        <div id="map" class="map"></div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+    <div id="booking-popup" class="booking-popup">
+        <div class="booking-popup__body">
+            <div class="booking-popup__content">
+                <button class="booking-popup__close">X</button>
+                <p class="booking-popup__title">Modal 1</p>
+                <p class="booking-popup__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam similique facere sequi, laudantium quia minus amet voluptate quod minima voluptatum quis dignissimos quos sed asperiores iusto unde. Dolore, sapiente.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        alert("Внимание! Сайт создан в учебных целях. Вся представленная информация не является настоящей. Любые совпадения с реальностью абсолютно случайны. Макет взят из открытых источников.");
+    </script> -->
+    <script src="scripts/booking-popup.js"></script>
+    <script src="scripts/button-visible.js"></script>
+    <script src="scripts/gallery-carousel.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=780238e0-2ff6-4b92-9c53-7bca1e440a25&lang=ru_RU" type="text/javascript"></script>
+    <script src="scripts/map.js"></script>
+
+</body>
+
+</html>

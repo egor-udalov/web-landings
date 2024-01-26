@@ -1,0 +1,109 @@
+.button-booking {
+    cursor: pointer;
+
+    display: flex;
+    gap: 0 23px;
+    align-items: center;
+    justify-content: center;
+
+    width: 417px;
+    height: 67px;
+    padding: 0;
+
+    font: inherit;
+    color: inherit;
+
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 100px;
+}
+
+.button-booking p {
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 130%;
+    text-transform: uppercase;
+    letter-spacing: 0.72px;
+}
+
+.button-booking img {
+    width: 18px;
+    height: 18px;
+}
+
+.button-booking--dark {
+    color: var(--color-dark);
+}
+
+.button-booking--light {
+    color: var(--color-light);
+}
+
+@media (hover: hover) {
+    /* button-booking--dark */
+    .button-booking--dark:hover {
+        background-color: var(--color-dark);
+        transition: var(--transition-hover);
+    }
+
+    .button-booking--dark:hover p {
+        color: var(--color-light);
+        transition: var(--transition-hover);
+    }
+
+    .button-booking--dark:hover svg #Rectangle,
+    .button-booking--dark:hover svg #Vector {
+        stroke: var(--color-light);
+        transition: var(--transition-hover);
+    }
+
+    /* button-booking--light */
+    .button-booking--light:hover {
+        background-color: var(--color-light);
+        border-color: var(--color-light);
+        transition: var(--transition-hover);
+    }
+
+    .button-booking--light:hover p {
+        color: var(--color-dark);
+        transition: var(--transition-hover);
+    }
+
+    .button-booking--light:hover svg #Rectangle,
+    .button-booking--light:hover svg #Vector {
+        stroke: var(--color-dark);
+        transition: var(--transition-hover);
+    }
+}
+
+@media (hover: none) {
+    /* button-booking--dark */
+    .button-booking--dark:active {
+        background-color: var(--color-light);
+    }
+
+    .button-booking--dark:active p {
+        color: var(--color-light);
+    }
+
+    .button-booking--dark:active svg #Rectangle,
+    .button-booking--dark:active svg #Vector {
+        stroke: var(--color-light);
+    }
+
+    /* button-booking--light */
+    .button-booking--light:active {
+        background-color: var(--color-light);
+    }
+
+    .button-booking--light:active p {
+        color: var(--color-dark);
+    }
+
+    .button-booking--light:active svg #Rectangle,
+    .button-booking--light:active svg #Vector {
+        stroke: var(--color-dark);
+    }
+}

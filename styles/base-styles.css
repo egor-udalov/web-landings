@@ -1,0 +1,67 @@
+body {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: var(--color-dark);
+    letter-spacing: 0.32px;
+
+    background-color: #fff;
+}
+
+.page-container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.content-container {
+    max-width: 1590px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+b.bold {
+    font-weight: 600;
+}
+
+b.medium {
+    font-weight: 500;
+}
+
+strong.bold {
+    font-weight: 600;
+}
+
+strong.medium {
+    font-weight: 500;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* @media (max-width: 1590px) {
+    html {
+        font-size: 0.875rem;
+    }
+} */
