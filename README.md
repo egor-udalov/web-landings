@@ -5,10 +5,22 @@
 
 ___
 
+<h2><a href="https://github.com/egor-udalov/web-landings/tree/teia-art-photo-studio">teia-art-photo-studio</a> ( 3 / 2024 )</h2>
+<b><p>Фотостудия "ТЕЙА"</p></b>
+<p>Вёрстка одностраничного сайта</p>
+<b><a href="https://teia-art-photo-studio.egor-udalov.ru">Ссылка на сайт</a></b>
+<br>
+<br>
+<a href="https://github.com/egor-udalov/web-landings/tree/teia-art-photo-studio">Ссылка на код</a>
+<br>
+<a href="https://www.figma.com/file/inZDUox3RJK6GokHcaqFSS/%D1%84%D0%BE%D1%82%D0%BE%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F?type=design&node-id=32-2&mode=design&t=ZDjHYdes8TdYhtvE-0">Ссылка на макет</a>
+
+___
+
 <h2><a href="https://github.com/egor-udalov/web-landings/tree/california-bar">california-bar</a> ( 2 / 2023 )</h2>
 <b><p>Концертный бар</p></b>
 <p>Адаптивная вёрстка одностраничного сайта. Подход "Desktop First".</p>
-<b><a href="california-bar.egor-udalov.ru">Ссылка на сайт</a></b>
+<b><a href="https://california-bar.egor-udalov.ru">Ссылка на сайт</a></b>
 <br>
 <br>
 <a href="https://github.com/egor-udalov/web-landings/tree/california-bar">Ссылка на код</a>
